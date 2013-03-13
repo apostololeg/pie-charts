@@ -1,0 +1,61 @@
+*{ margin:0; padding:0; border: 0;}
+
+body {
+    background-color: #eee;
+}
+
+#holder text {
+    text-shadow: #fff 0 1px 1px;
+}
+
+.presets {
+    width: 100%;
+    text-align: center;
+}
+
+.toggler {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border: 4px solid #333;
+    /*opacity: .3;*/
+    cursor: pointer;
+
+    -webkit-transition: all .3s ease-out;
+       -moz-transition: all .3s ease-out;
+        -ms-transition: all .3s ease-out;
+         -o-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+    /* hardware acceleration */
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+         -o-transform: translateZ(0);
+            transform: translateZ(0);
+}
+
+.toggler:hover {
+    border-width: 0;
+    opacity: 1;
+}
+
+/* colors: */
+.toggler:nth-child(1) {
+    background: #006793;
+}
+.toggler:nth-child(2) {
+    background: #00a3a3;
+}
+.toggler:nth-child(3) {
+    background: #00a368;
+}
+.toggler:nth-child(4) {
+    background: #dcea00;
+}
+.toggler:nth-child(5) {
+    background: #d11500;
+}
